@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book my show</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation bar  -->
+    <div class="navbar">
+      <img class="logo" src="./src/logo.svg" alt="bookmyshow logo" />
+      <div class="searchbar">
+        <img src="./src/searchlogo.png" alt="searchlogo" class="search-logo" />
+        <label for="./searchEvent"></label>
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search event, artist, location and more"
+        />
+      </div>
+
+      <div class="right-part">
+        <form action="select-location">
+          <select name="location" id="location" required>
+            <option value="choose-location">location</option>
+            <option value="bengaluru">bengaluru</option>
+            <option value="mumbai">mumbai</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="default">default</option>
+            <option value="default">default</option>
+          </select>
+        </form>
+        <button class="sign-btn">sign in</button>
+        <div class="ham">&#8801;</div>
+      </div>
+    </div>
+    <!-- end of navigation bar -->
+
+    <!-- Quick links section -->
+
+    <div class="quicklink">
+      <div class="left">
+        <span>Movies</span>
+        <span>Stream</span>
+        <span>Events</span>
+        <span>Plays</span>
+        <span>Sports</span>
+        <span>Activities</span>
+      </div>
+      <div class="right">
+        <span>List your show</span>
+        <span>Corporates</span>
+        <span>Offers</span>
+        <span>Gift Cards</span>
+      </div>
+    </div>
+
+    <!-- recommended shows -->
+
+    <div class="recom-box">
+      <div class="heading">
+        <h2>Recommended Movies</h2>
+      </div>
+
+      <div class="card-container">
+        <div class="card card1">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+
+        <div class="card card2">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+        <div class="card card2">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+        <div class="card card2">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+        <div class="card card2">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+        <div class="card card2">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+        <div class="card card2">
+          <img src="src/venom.avif" alt="card-image" class="card-image" />
+          <h3 class="card-title">Venom</h3>
+          <div class="card-category">Adventure, sci-fi</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ad">
+      <img src="src/ad.avif" alt="advertisement" />
+    </div>
+  </body>
+</html>
